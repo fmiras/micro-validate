@@ -1,0 +1,11 @@
+{
+  "name": "micro-validate",
+  "version": "0.0.1",
+  "description": "Easily validate your microservices url parameters",
+  "main": "lib/index.js",
+  "repository": "fmiras/micro-validate",
+  "bugs": "https://github.com/fmiras/micro-cacheable/issues",
+  "homepage": "https://github.com/fmiras/micro-cacheable",
+  "author": "fmiras",
+  "license": "MIT"
+}
