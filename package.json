@@ -7,5 +7,11 @@
   "bugs": "https://github.com/fmiras/micro-cacheable/issues",
   "homepage": "https://github.com/fmiras/micro-cacheable",
   "author": "fmiras",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "0.25.0"
+  }
 }
