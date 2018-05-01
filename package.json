@@ -9,10 +9,27 @@
   "author": "fmiras",
   "license": "MIT",
   "scripts": {
-    "test": "ava"
+    "precommit": "lint-staged",
+    "lint": "xo",
+    "test": "npm run lint && ava"
+  },
+  "xo": {
+    "extends": "prettier"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint",
+      "prettier --single-quote --no-semi --write",
+      "git add"
+    ]
   },
   "devDependencies": {
     "ava": "0.25.0",
-    "rewire": "4.0.1"
+    "husky": "0.14.3",
+    "lint-staged": "7.0.5",
+    "micro": "9.3.0",
+    "prettier": "1.12.1",
+    "rewire": "4.0.1",
+    "xo": "0.20.3"
   }
 }
