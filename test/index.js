@@ -34,5 +34,17 @@ test('custom validator fail', t => {
     return Number.isInteger(p)
   }
   const thrower = () => validate(parameters, validator)
-  t.throws(thrower)
+  const error = t.throws(thrower)
+  t.is(error.message, 'The parameter ssn is missing')
+})
+
+test('custom error message on fail', t => {
+  const parameters = { id: '12s' }
+  const validator = p => {
+    return Number.isInteger(p)
+  }
+  const customMessage = 'The parameter {param} is wrong'
+  const thrower = () => validate(parameters, validator, customMessage)
+  const error = t.throws(thrower)
+  t.is(error.message, 'The parameter id is wrong')
 })
