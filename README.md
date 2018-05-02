@@ -1,5 +1,5 @@
 # micro-validate
-[![NPM version](https://img.shields.io/npm/v/micro-cacheable.svg)](https://www.npmjs.com/package/micro-validate)
+[![NPM version](https://img.shields.io/npm/v/micro-validate.svg)](https://www.npmjs.com/package/micro-validate)
 [![Build Status](https://travis-ci.org/fmiras/micro-validate.svg?branch=master)](https://travis-ci.org/fmiras/micro-validate)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
