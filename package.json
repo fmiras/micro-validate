@@ -8,6 +8,9 @@
   "homepage": "https://github.com/fmiras/micro-cacheable",
   "author": "fmiras",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "precommit": "lint-staged",
     "lint": "xo",
