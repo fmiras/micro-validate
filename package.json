@@ -34,7 +34,7 @@
     "nyc": "11.8.0",
     "prettier": "1.12.1",
     "rewire": "4.0.1",
-    "xo": "0.21.0"
+    "xo": "0.21.1"
   },
   "peerDependencies": {
     "micro": "^9.3.0"
